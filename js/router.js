@@ -62,15 +62,6 @@ export class Router{
     });
     backBtn.style.background = "#DCD6F7";
 
-    const nextBtn = document.createElement('a');
-    nextBtn.innerHTML = "Forward";
-    nextBtn.setAttribute('class','btn btn-default');
-    nextBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      history.forward();
-    });
-    backBtn.style.background = "#DCD6F7";
-
     // start game button
     const startGameBtn = document.createElement('a');
     startGameBtn.innerHTML = "Start The Battleship";
