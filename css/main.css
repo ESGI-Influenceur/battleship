@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+*{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+html, body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #F7FFF7;
+	min-width: 860px;
+}
+h1, h2, h3, h4, h5, h6, p, li, span {
+	color: #222222;
+}
+
+a {
+	text-decoration: none;
+}
+
+.txt-center
+{
+	text-align: center;
+}
+
+.btn {
+	color: #EEEEEE;
+	margin: 1em auto 0 auto;
+	padding: 10px;
+}
+
+btn:hover {
+	cursor: pointer;
+	background-color: #ffffff;
+}
+
+/* #container{
+	display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+} */
+
+/* #game-container {
+	display: table-row;
+  vertical-align: middle;
+} */
+
+.grid-container {
+	width: 100%;
+	text-align: center;
+	display: table-row;
+  vertical-align: middle;
+}
+
+.grid {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	padding: 5px;
+	height: 420px;
+	width: 420px;
+	background-color: #25567B;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.grid-container:last-child {
+	margin-left: 10px;
+}
+
+.grid-cell {
+	vertical-align: top; /*clears the vertical space between rows*/
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-color: #FFE66D;
+	margin: 1px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.computer-player .grid-cell:hover {
+	cursor: pointer; 
+	background-color: #FF906B;
+}
+
+.human-player .grid-ship, .human-player  .grid-ship:hover {
+	background-color: #808080;
+}
+
+.grid-miss, .computer-player .grid-miss:hover {
+	background-color: #FFFFFF;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.grid-hit, .computer-player .grid-hit:hover {
+	background-color: #F60018;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.grid-sunk, .computer-player .grid-sunk:hover {
+	background-color: #222222;
+}
