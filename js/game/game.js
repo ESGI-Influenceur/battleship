@@ -1,13 +1,6 @@
 import { CONST } from './constants.js';
 import { Fleet } from './fleet.js';
 import { Grid } from './grid.js';
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-import { Stats } from './../stats.js';
->>>>>>> ab9f436... first commit
-=======
->>>>>>> 5828a10... fix
 
 export class Game {
   constructor() {
