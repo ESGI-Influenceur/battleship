@@ -8,4 +8,5 @@ In your terminal: `docker-compose up -d`
 
 Access the project url : `localhost:8080`
 
-Then enjoy the Influenceurs Battleship
+## Test the project online
+`https://esgi-influenceur.github.io/battleship/`
